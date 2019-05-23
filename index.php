@@ -1,6 +1,6 @@
 <?php
 
-    $conn = pg_connect("host=18.191.13.17 port=5432 dbname=poker-elephant user=remote password=PokerEleph4nt!");
+    $conn = pg_connect("WOOPS");
     if($conn){
         // echo $conn;
         echo 'connected';

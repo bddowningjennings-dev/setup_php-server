@@ -6,8 +6,9 @@
   ssh -i *location of .pem* ubuntu@*aws ip*
 ```
 3) clone this repo
-4) run the script
+4) fix index.php so that it has the ip and password
+5) run the script
 ```bash
  ./script.py
 ```
-5) check your aws ip
+6) check your aws ip
