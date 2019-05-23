@@ -16,5 +16,5 @@ instructions = [
   'echo "\n should be finished?"'
 ]
 
-for cmd in range(instructions):
+for cmd in instructions:
   subprocess.call(cmd, shell=True)
