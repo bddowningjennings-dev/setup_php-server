@@ -5,7 +5,7 @@ import subprocess
 instructions = [
   'sudo apt update',
   'sudo apt upgrade -y',
-  'sudo apt install php nginx php-pgsql',
+  'sudo apt install php nginx php-pgsql php-fpm',
   'sudo service apache2 stop',
   'sudo service nginx start',
   'sudo rm /var/www/html/*',
